@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    .head {
+      display: flex;
+      height: 100px;
+      width: 100%;
+    }
+
+    .head-left {
+      font-size: 20px;
+      background-color: lightgoldenrodyellow;
+      height: 100px;
+      width: 100%;
+      display: flex;
+    }
+
+    .head-center {
+      font-size: 30px;
+      background-color: lightblue;
+      height: 100px;
+      width: 50px;
+      display: flex;
+    }
+
+    .head-right {
+      font-size: 50px;
+      background-color: lightgreen;
+      height: 100px;
+      width: 100%;
+      display: flex;
+    }
+
+    .my-button {
+      font-size: 60px;
+      background-color: bisque;
+      width: 100px;
+    }
+  </style>
+
+  <script>
+    function handleClick(userName) {
+      alert(`${userName}님 환영합니다`);
+    }
+
+    function handleClick2() {
+      alert("이미 정해진 메세지");
+    }
+  </script>
+
+  <div class="head">
+    <div class="head-left">left</div>
+    <div class="head-center">center</div>
+    <div class="head-right">right</div>
+  </div>
+
+  <div>
+    <button class="my-button" onclick="handleClick('김지원')">click!</button>
+  </div>
+</html>

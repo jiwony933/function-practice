@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+    <style>
+
+
+    .header {
+        width : 100% ;
+        height: 64px ;
+        padding : 8px ;
+        box-sizing: border-box;
+        display: flex;
+    
+    }
+
+    .header-left {
+        width: 100px;
+        background-color: lightcyan;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .header-center {
+        flex : 1 ;
+        background-color: lightblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .header-right {
+        width: 100px;
+        background-color: lightgray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+
+    .body {
+        height: 700px;
+        display: flex;
+        padding : 8px ;
+        box-sizing: border-box;
+
+    }
+    .body-left {
+        background-color: lightgreen ;
+        width : 600px ;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .body-right {
+        background-color: lightpink ;
+        flex : 1 ;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+    .my-button { 
+        width: 100px;
+        height: 50px;
+        background-color: aliceblue;
+        border-color: grey ;
+        border-radius: 8px ;
+        font-size: 20px;
+    }
+
+    .my-button2 { 
+        width: 100px;
+        height: 50px;
+        background-color: aliceblue;
+        border-color: grey ;
+        border-radius: 8px ;
+        font-size: 20px;
+    }
+    </style>
+
+    <script>
+
+        function handleClick() {alert ('hello!')}
+        function handleClick2() {
+            document.getElementsByClassName("my-button2")[0].style.color = 'red' ;
+            document.getElementsByClassName("my-button2")[0].style.fontSize = '25px' ;
+        }
+
+    </script>
+        
+    </head>
+
+    <body>
+        <div class = "header">
+            <div class = "header-left">
+                <a href="./index.html"><img alt = "" src = "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/mt/2021/02/21/2021022110155121059_1.jpg" width="100%;"></a></div>
+            <div class = "header-center">My Profile</div>
+            <div class = "header-right">
+                <a href="./1.html"><img alt = "" src = "https://cdn-icons-png.flaticon.com/512/1250/1250689.png" height="40x"></a>
+            </div>
+
+        </div>
+
+        <div class = "body">
+            <div class = "body-left">
+               안녕하세요<br> 내이름은 김지원!
+            </div>
+
+            <div class = "body-right">
+            오른쪽 화면
+            </div>
+
+        </div>
+
+        <div class = "footer">
+
+            <h1>Footer</h1>
+
+        </div>
+
+    </body>
+
+</html>

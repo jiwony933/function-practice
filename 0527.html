@@ -1,0 +1,182 @@
+<head>
+  <style>
+    .head {
+      height: 50px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+    }
+
+    .head-left {
+      width: 199px;
+      display: flex;
+    }
+
+    .head-center {
+      width: 270px;
+      height: 50px;
+      padding: 16px;
+      justify-content: center;
+    }
+
+    .head-center-box {
+      padding: 6px;
+      background-color: #f0f0f0;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    input[type="text"] {
+      border: transparent 2px;
+      font-size: 20px;
+      background-color: transparent;
+    }
+
+    .head-right {
+      width: 400px;
+      display: flex;
+    }
+
+    .head-right > div {
+      margin-left: 22px;
+    }
+
+    .head-right > div:first-of-type {
+      margin-left: 0;
+    }
+
+    .head-right-home {
+      display: flex;
+    }
+
+    .body {
+      width: 100%;
+      display: flex;
+      background-color: #f0f0f0;
+      padding: 20px;
+    }
+
+    .body-left {
+      width: 600px;
+      display: flex;
+      flex-direction: column;
+      margin: 20px;
+      margin-top: 0;
+    }
+
+    .body-left-top {
+      border: 1px rgb(38, 38, 38);
+      border-radius: 8px;
+      background: lightgrey;
+      height: 200px;
+    }
+
+    .body-left-bottom {
+      border: 1px rgb(38, 38, 38);
+      border-radius: 8px;
+      margin-top: 16px;
+      background: lightblue;
+      height: 800px;
+    }
+
+    .body-right {
+      width: 400px;
+    }
+
+    .footer {
+      height: 200px;
+    }
+  </style>
+
+  <script>
+    function handleClick() {
+      alert("잘 클릭하셨어요");
+    }
+  </script>
+</head>
+
+<body>
+  <div class="head">
+    <div class="head-left">
+      <a href="0527.html">
+        <img
+          alt=""
+          src="https://www.instagram.com/static/images/web/mobile_nav_type_logo-2x.png/1b47f9d0e595.png"
+          width="103"
+      /></a>
+    </div>
+
+    <div class="head-center">
+      <!--검색창-->
+      <div class="head-center-box">
+        <img
+          alt=""
+          src="https://svgsilh.com/png-1024/1093183.png"
+          width="20px"
+        />
+        <input type="text" value="" />
+      </div>
+    </div>
+
+    <div class="head-right">
+      <div class="head-right-home">
+        <a href="0527.html"
+          ><img
+            alt=""
+            src="https://cdn-icons-png.flaticon.com/512/49/49876.png"
+            width="24"
+        /></a>
+      </div>
+      <div class="head-right-dm">
+        <a href="0527.html"
+          ><img
+            alt=""
+            src="https://cdn-icons-png.flaticon.com/512/4406/4406119.png"
+            width="24"
+        /></a>
+      </div>
+      <div class="head-right-upload">
+        <a href="0527.html"
+          ><img
+            alt=""
+            src="https://cdn-icons-png.flaticon.com/512/49/49876.png"
+            width="24"
+        /></a>
+      </div>
+      <div class="head-right-search">
+        <a href="0527.html"
+          ><img
+            alt=""
+            src="https://cdn-icons-png.flaticon.com/512/49/49876.png"
+            width="24"
+        /></a>
+      </div>
+      <div class="head-right-heart">
+        <a href="0527.html"
+          ><img
+            alt=""
+            src="https://cdn-icons-png.flaticon.com/512/49/49876.png"
+            width="24"
+        /></a>
+      </div>
+      <div class="head-right-profile">
+        <a href="0527.html"
+          ><img
+            alt=""
+            src="https://cdn-icons-png.flaticon.com/512/49/49876.png"
+            width="24"
+        /></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="body">
+    <div class="body-left">
+      <div class="body-left-top">left top</div>
+      <div class="body-left-bottom">left bottom</div>
+    </div>
+    <div class="body-right">right</div>
+  </div>
+
+  <div class="footer"></div>
+</body>
